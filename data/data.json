@@ -1,0 +1,112 @@
+{
+  "arrayOfProducts": [
+    {
+      "id": 1201,
+      "name": "CHECK PRINT SHIRT",
+      "vendor_id": 12,
+      "attribute": [
+        {
+          "id": 4,
+          "name": "X",
+          "stock": 15
+        },
+        {
+          "id": 2,
+          "name": "M",
+          "stock": 10
+        }
+      ],
+      "price": 1300
+    },
+    {
+      "id": 1202,
+      "name": "GLORIA HIGH LOGO SNEAKER",
+      "vendor_id": 13,
+      "attribute": [
+        {
+          "id": 6,
+          "name": "M",
+          "stock": 5
+        },
+        {
+          "id": 1,
+          "name": "S",
+          "stock": 6
+        },
+        {
+          "id": 3,
+          "name": "XL",
+          "stock": 8
+        }
+      ],
+      "price": 9100
+    },
+    {
+      "id": 1203,
+      "name": "CATE RIGID BAG",
+      "vendor_id": 10,
+      "attribute": [
+        {
+          "id": 1,
+          "name": "S",
+          "stock": 6
+        },
+        {
+          "id": 3,
+          "name": "XL",
+          "stock": 8
+        }
+      ],
+      "price": 9400.5
+    },
+    {
+      "id": 1204,
+      "name": "GUESS CONNECT WATCH",
+      "vendor_id": 11,
+      "attribute": [
+        {
+          "id": 6,
+          "name": "M",
+          "stock": 5
+        },
+        {
+          "id": 3,
+          "name": "XXL",
+          "stock": 8
+        }
+      ],
+      "price": 4308.9
+    },
+    {
+      "id": 1205,
+      "name": "70s RETRO GLAM KEFIAH",
+      "vendor_id": 12,
+      "attribute": [
+        {
+          "id": 6,
+          "name": "M",
+          "stock": 5
+        },
+        {
+          "id": 1,
+          "name": "S",
+          "stock": 6
+        }
+      ],
+      "price": 2800
+    },
+    {
+      "id": 1206,
+      "vendor_id": 12,
+      "name": "GLAM KEFIAH 374",
+      "attribute": [
+        {
+          "id": 6,
+          "name": "M",
+          "stock": 5
+        }
+      ],
+      "price": 3850
+    }
+  ]
+}
