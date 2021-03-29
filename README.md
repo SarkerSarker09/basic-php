@@ -1,9 +1,5 @@
 # basic-php
 Basic PHP
 
-
-
 -- array_map using
-
-
-### code reducing
+-- *** we can redule code lines to use build in function

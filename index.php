@@ -6,13 +6,22 @@ $productIdList  = array_map(function($p){ return $p->id; },$data->arrayOfProduct
 $attributeNames = array_map(function($p){ return array_map(function($a){ return $a->name; },$p->attribute); },$data->arrayOfProducts);
 $productPriceList = array_map(function($p){ return $p->price; }, $data->arrayOfProducts);
 
-// print_r($productIdList);
-// print_r($attributeNames);
+echo '<pre>';
+print_r($productIdList);
+echo "\r\n";
+
+print_r($attributeNames);
+echo "\r\n";
+
 print_r($productPriceList);
+echo "\r\n";
 
 echo array_sum($productPriceList);
+echo "\r\n";
 
-echo '<pre>';
+echo implode(",", $productIdList);
+
+
 // print_r($data);
 echo '</pre>';
 // class Sample {
