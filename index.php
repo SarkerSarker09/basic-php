@@ -47,4 +47,14 @@ echo '</pre>';
 // }
 
 
+    protected function getLastId() {
+        if (Product::count() == 0) {
+            return 0;
+        } else 
+            return  Product::max('product_id');
+    }
+
+   $l =  str_pad( $this->getLastId() + 1 , 7, "0", STR_PAD_LEFT )  ; 
+
+
 ?>
