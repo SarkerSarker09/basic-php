@@ -57,4 +57,27 @@ echo '</pre>';
    $l =  str_pad( $this->getLastId() + 1 , 7, "0", STR_PAD_LEFT )  ; 
 
 
+
+   protected function hook() {
+        try {
+            $url = "https://jsonplaceholder.typicode.com/todos";
+            $ch = curl_init();            
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);            
+            curl_setopt($ch, CURLOPT_URL,$url);
+            $result=curl_exec($ch);
+            curl_close($ch);
+            
+            // Print the return data
+            print_r(json_decode($result, true));
+        } catch(\Exception $ex) {
+            echo $ex->getMessage();
+        }
+    }
+
+
+
+
+
+
 ?>
